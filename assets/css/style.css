@@ -3,6 +3,10 @@
 
 /*---------------colours*/
 
+body{
+    background-color:#676767;
+}
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -220,3 +224,18 @@ footer .cv-pdf i:hover {
 #footer-details {
     margin: 15px;
 }
+
+/*------------------------------three reasons*/
+
+
+.three-reasons-icon{
+    font-size:26px;
+    color:#ff9f31;
+}
+
+.three-reasons-heading{
+    margin-bottom:50px;
+}
+
+
+.bg-color-three-reasons{}

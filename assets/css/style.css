@@ -4,7 +4,7 @@
 /*---------------colours*/
 
 body {
-    background-color: #434343;
+    background-color: #525252;
 }
 
 .bg-color-name-title {
@@ -87,7 +87,7 @@ header {
 
 
 .logo1 {
-    background: url("../images/sam.png");
+    background: url("../images/sam.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

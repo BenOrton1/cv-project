@@ -19,6 +19,14 @@ body {
     background-color: #ffffff;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
+    background-color: #927d9e;
+}
+
 .ui-menu-color-home {
     background-color: #ff9f31;
 }
@@ -35,9 +43,7 @@ body {
     background-color: #565555;
 }
 
-.bg-color-work-history{
-    background-color: #9b59b6;
-}
+
 
 /*--------------------------------------------special paddings margins and text*/
 
@@ -342,13 +348,38 @@ footer .cv-pdf i:hover {
     color: #fafafa;
 }
 
-.history-heading{
-    color:#fafafa;
-    margin:50px;
+.history-heading {
+    color: #fafafa;
+    margin: 50px;
 }
-.history-items{
+
+.history-items {
     margin-bottom: 20px;
 }
+
+/*-------------------------------------------------------contact*/
+
+.contact-heading {
+    font-family: "exo 2", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type=submit] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ff9f31;
+    color: #fafafa;
+}
+
 
 
 /*------------------------------media queries*/
@@ -359,4 +390,11 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
 }
